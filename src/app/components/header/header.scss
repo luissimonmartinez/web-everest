@@ -19,6 +19,7 @@
         display: flex;
     }
 }
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 .navbar {
@@ -29,6 +30,7 @@
     height: 70px;
     background: transparent;
     font-family: 'PT Sans', sans-serif;
+    border-bottom: 1px solid #FFFFFF
 }
 
 .navbar__logo img {

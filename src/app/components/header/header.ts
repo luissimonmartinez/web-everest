@@ -11,7 +11,7 @@ import { NgStyle } from '@angular/common';
 export class Header implements OnInit {
 
   isResponsive: boolean = false;
-  showOptionsMenu: boolean = false;
+  showIconHamburguesa: boolean = false;
 
   ngOnInit() {
     this.checkResponsive();
@@ -24,6 +24,7 @@ export class Header implements OnInit {
 
   private checkResponsive() {
     this.isResponsive = window.innerWidth <= 900;
+    this.showIconHamburguesa = window.innerWidth <= 900;
   }
 
   showOptions() {
