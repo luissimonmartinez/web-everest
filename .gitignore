@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # Compiled output
@@ -72,4 +72,3 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
->>>>>>> db444513fd8900491504102700e39c28d8000a71
