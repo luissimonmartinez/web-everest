@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar" [ngStyle]="!isResponsive ? {'margin': '20px 40px'} : {}">
     <div class="navbar__logo">
         <img src="assets/logo.svg" alt="Logo" />
         <button class="navbar__burger" type="button" aria-label="Abrir menú" (click)="showOptions()">

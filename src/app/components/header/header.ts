@@ -1,10 +1,12 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  standalone: true,
+  imports: [NgStyle],
   templateUrl: './header.html',
-  styleUrl: './header.scss',
+  styleUrls: ['./header.scss'],
 })
 export class Header implements OnInit {
 
