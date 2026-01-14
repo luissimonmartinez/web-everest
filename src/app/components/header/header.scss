@@ -1,0 +1,104 @@
+.navbar__burger {
+    background: none;
+    border: none;
+    margin-left: 1rem;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar__burger i {
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+    .navbar__burger {
+        display: flex;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 70px;
+    background: transparent;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navbar__logo img {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    transition: color 0.2s;
+}
+
+.navbar__links a:hover {
+    color: #AB8146;
+}
+
+.navbar__social {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.navbar__social i {
+    color: #AB8146;
+    font-size: medium;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.navbar__social a:hover i {
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .navbar__logo,
+    .navbar__links,
+    .navbar__social {
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+    }
+
+    .navbar__links {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .navbar__social {
+        justify-content: center;
+        align-self: center;
+    }
+}

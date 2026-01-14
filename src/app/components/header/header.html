@@ -1,0 +1,27 @@
+<nav class="navbar">
+    <div class="navbar__logo">
+        <img src="assets/logo.svg" alt="Logo" />
+        <button class="navbar__burger" type="button" aria-label="Abrir menú" (click)="showOptions()">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    @if (!isResponsive) {
+        <ul class="navbar__links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de mí</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="navbar__social">
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+    }
+</nav>
