@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WebEverest
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
@@ -12,6 +13,7 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+# WebEverest
 ## Code scaffolding
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
@@ -57,3 +59,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# web-everest
+>>>>>>> db444513fd8900491504102700e39c28d8000a71
